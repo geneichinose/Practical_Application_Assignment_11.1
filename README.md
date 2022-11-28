@@ -52,7 +52,7 @@ The plan involves:
 
     B. Importance of Coefficients
 
-    C. Target Transform Regressor Test
+    C. Transformed Target Regressor Test
 
     D. Coefficient Importance and Variability Analysis
 
