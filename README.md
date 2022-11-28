@@ -40,9 +40,7 @@ The plan involves:
 
     B. Set up a pipeline workflow to handle the transformations
 
-    C. Set up a grid search to determine the best regularization hyper parameter alpha
-
-    D. The regularization approach allows us to include many features without overfitting.
+    C. Set up a grid search to determine the best regularization hyper parameter alpha. The regularization approach allows us to include many features without overfitting.
 
     E. Examination of the residuals over the target range
 
