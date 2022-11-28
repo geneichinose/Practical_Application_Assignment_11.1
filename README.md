@@ -81,9 +81,9 @@ The plan involves:
 
 ### What does this mean for implications in fine tuning inventory?
 
-1. Age and year play an important role. Values of cars flatten out after 10 years or 110k miles. Dealers may want to adjust inventory to maximize profits accordingly.
+1. Age or year and odometer mileage play an important role in the value of a used car. Values of cars flatten out after 10 years or 110k miles. Dealers may want to adjust inventory to maximize profits accordingly.
 
-2. Consumers want fun (off-road, trucks, four-wheel-drive) and powerful (10,8,6 cylinder) vehicles. Vehicles with these features are valued more. Dealers may want to stock these kinds of cars as opposed to vehicles that have negative coefficients. These tended to be more economy or budget cars with less powerful engines.
+2. Consumers want fun, useful (off-road, trucks, four-wheel-drive) and powerful (10,8,6 cylinder) vehicles. Vehicles with these features are valued more. Dealers may want to stock these kinds of cars as opposed to vehicles that have negative coefficients that lower the values of used cars. These tended to be more economy or budget cars with less powerful engines.
 
 ### Next steps, future directions, and recommendations:
 
