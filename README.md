@@ -13,37 +13,61 @@ The objective of this study is to determine what key factors drives the price of
 The plan involves:
 
 1. Data understanding
+
     A. An exploration and inventory of the dataset 
+
     B. Identify which features are continuous and numerical versus which are discrete and categorical
+
     C. Identify the features and target for regression
 
 2. Data preparation
+
     A. Window the appropriate ranges of the features and targets
+
     B. Removal of the data with missing key features
+
     C. Removal of data outliers as a form of data quality control 
+
     D. Removal of duplicates 
+
     E. Logarithmic and exponential transformations of the target to achieve normal distributions
+
     F. Encoding categorical data (ordinal or one hot encoding).
 
 3. Modeling
+
     A. We will compare RIDGE and LASSO regression
+
     B. Set up a pipeline workflow to handle the transformations
-    C. Set up a grid search to determine the best regularization hyperparameter alpha
+
+    C. Set up a grid search to determine the best regularization hyper parameter alpha
+
     D. The regularization approach allows us to include many features without overfitting.
+
     E. Examination of the residuals over the target range
+
     F. Cross validation to check for overfitting
 
 4. Evaluation
+
     A. Analysis of Resulting Coefficients
+
     B. Importance of Coefficients
+
     C. Target Transform Regressor Test
+
     D. Coefficient Importance and Variability Analysis
+
     E. Residual Analysis
 
 5. Deployment
+
     A. Direct application: Comparison of the model to kbb.com with two example cars 
+
     B. Key findings
+
     C. Business Implications
+
     D. Future Directions
 
 ## Key findings:
