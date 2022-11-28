@@ -2,7 +2,6 @@
 
 Repo contents:
 1. [ichinose-usedcar.ipynb](ichinose-usedcar.ipynb) - jupyter notebook
-2. [vehicles.csv](vehicles.csv) - used car dataset in CSV format
 
 # Machine Learning Approach to Used Car Pricing Modeling
 
