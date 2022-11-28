@@ -42,9 +42,9 @@ The plan involves:
 
     C. Set up a grid search to determine the best regularization hyper parameter alpha. The regularization approach allows us to include many features without overfitting.
 
-    E. Examination of the residuals over the target range
+    D. Examination of the residuals over the target range
 
-    F. Cross validation to check for overfitting
+    E. Cross validation to check for overfitting
 
 4. Evaluation
 
@@ -60,7 +60,7 @@ The plan involves:
 
 5. Deployment
 
-    A. Direct application: Comparison of the model to kbb.com with two example cars 
+    A. Direct application: Comparison of the regression model to kbb.com for two example cars 
 
     B. Key findings
 
@@ -76,7 +76,7 @@ The plan involves:
 
 3. The car features year, cylinders, and odometer were the most important.
 
-4. We identify some variability in coefficients that may indicate them not be well resolved. These include 'other' categories (e.g., fuel_other, type_other, cylinder_other) that may not be well represented in the dataset. Also, less represented features like 3-cylinders, off-road, bus, fuel_electric may not be well represented in the dataset.
+4. We identify some variability in several coefficients that indicate that they are not well resolved. These include 'other' categories (e.g., fuel_other, type_other, cylinder_other) that may not be well represented in the dataset. Also, less represented features like 3-cylinders, off-road, bus, fuel_electric may not be well represented in the dataset.
 
 5. We demonstrate that for two example vehicles (2013 Honda Fit and 2015 Toyota Tacoma) that the model predicts the value of the vehicle within the range of the Kelly Blue Book value (kbb.com). This demonstrates the usefulness of the model.
 
