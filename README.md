@@ -89,9 +89,13 @@ The plan involves:
 ### Next steps, future directions, and recommendations:
 
 1. We recommend further examination of the regression residuals group by the following to check for trends:
+
   A. region
+
   B. model and make
+
   C. color
+
   These features were not used in the regression. If trends exist, then future work could include adding these.
 
 2. Revisit the dataset in a few years to see if there is an increase in value for fuel efficient vehicles due to gas inflation.
