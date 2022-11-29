@@ -59,13 +59,13 @@ The plan involves:
 
 5. Deployment
 
-    A. Direct application: Comparison of the regression model to kbb.com for two example cars 
+    A. <a href="ichinose-usedcar.ipynb#direct">Direct application: Comparison of the regression model to kbb.com for two example cars</a>
 
     B. <a href="ichinose-usedcar.ipynb#keyfindings">Key findings</a>
 
-    C. Business Implications
+    C. <a href="ichinose-usedcar.ipynb#implications">Business Implications</a>
 
-    D. Future Directions
+    D. <a href="ichinose-usedcar.ipynb#future">Future Directions</a>
 
 ## Key findings:
 
@@ -99,4 +99,4 @@ The plan involves:
 
 2. Revisit the dataset in a few years to see if there is an increase in value for fuel efficient vehicles due to gas inflation.
 
-3. Understand why the model has more misfit for newer used cars (1 to 2 years old). As above, it is possible that the Covid-19 pandemic has injected some nonlinearity to the used car market with supply chain issues.  Improving prediction can help pricing newer used cars which will have more value.
+3. We would like to further understand why the model has more misfit for newer used cars (1 to 2 years old). As above, it is possible that the Covid-19 pandemic has injected some nonlinearity to the used car market with supply chain issues.  Improving prediction can help pricing newer used cars which will have more value.
