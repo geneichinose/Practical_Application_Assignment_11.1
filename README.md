@@ -61,7 +61,7 @@ The plan involves:
 
     A. Direct application: Comparison of the regression model to kbb.com for two example cars 
 
-    B. Key findings<a href="ichinose-usedcar.ipynb#keyfindings"></a>
+    B. <a href="ichinose-usedcar.ipynb#keyfindings">Key findings</a>
 
     C. Business Implications
 
