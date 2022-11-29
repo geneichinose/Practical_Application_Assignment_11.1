@@ -59,13 +59,13 @@ The plan involves:
 
 5. Deployment
 
-    A. <a href="ichinose-usedcar.ipynb#direct">Direct application: Comparison of the regression model to kbb.com for two example cars</a>
+    A. Direct application: Comparison of the regression model to kbb.com for two example cars
 
-    B. <a href="ichinose-usedcar.ipynb#keyfindings">Key findings</a>
+    B. Key findings
 
-    C. <a href="ichinose-usedcar.ipynb#implications">Business Implications</a>
+    C. Business Implications
 
-    D. <a href="ichinose-usedcar.ipynb#future">Future Directions</a>
+    D. Future Directions
 
 ## Key findings:
 
