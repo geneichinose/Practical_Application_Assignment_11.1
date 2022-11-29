@@ -11,61 +11,51 @@ The objective of this study is to determine what key factors drives the price of
 
 The plan involves:
 
-1. Data understanding
+<ol type="1">
+    <li><a href="#dataunderstanding">Data understanding</a></li>
+    <ol type="A">
+        <li>An inventory of the dataset</li>
+        <li>Identify which features are continuous and numerical versus which are discrete and categorical</li>
+        <li>Explore the unique range of categorical data</li>
+    </ol>
 
-    A. An exploration and inventory of the dataset 
-
-    B. Identify which features are continuous and numerical versus which are discrete and categorical
-
-    C. Identify the features and target for regression
-
-2. Data preparation
-
-    A. Window the appropriate ranges of the features and targets
-
-    B. Removal of the data with missing key features
-
-    C. Removal of data outliers as a form of data quality control 
-
-    D. Removal of duplicates 
-
-    E. Logarithmic and exponential transformations of the target to achieve normal distributions
-
-    F. Encoding categorical data (ordinal or one hot encoding).
-
-3. Modeling
-
-    A. We will compare RIDGE and LASSO regression
-
-    B. Set up a pipeline workflow to handle the transformations
-
-    C. Set up a grid search to determine the best regularization hyper parameter alpha. The regularization approach allows us to include many features without overfitting.
-
-    D. Examination of the residuals over the target range
-
-    E. Cross validation to check for overfitting
-
-4. Evaluation
-
-    A. Analysis of Resulting Coefficients
-
-    B. Importance of Coefficients
-
-    C. Transformed Target Regressor Test
-
-    D. Coefficient Importance and Variability Analysis
-
-    E. Residual Analysis
-
-5. Deployment
-
-    A. Direct application: Comparison of the regression model to kbb.com for two example cars
-
-    B. Key findings
-
-    C. Business Implications
-
-    D. Future Directions
+<li><a href="#datapreparation">Data Preparation</a></li>
+    <ol type="A">
+        <li>Window the appropriate ranges of the features and targets</li>
+        <li>Removal of the data with missing key features</li>
+        <li>Removal of data outliers as a form of data quality control</li> 
+        <li>Removal of duplicates</li> 
+        <li>Logarithmic and exponential transformations of the target to achieve normal distributions</li>
+        <li>Identify the features and target for regression</li>
+        <li>Split dataset for training and teseting</li>
+    </ol>
+    
+<li><a href="#modeling">Modeling</a></li>
+    <ol type="A">
+        <li>Set up a pipeline workflow to handle the transformations and linear regressions</li>
+        <li>Encoding categorical data using ordinal and one hot encoding</li>
+        <li>We will compare RIDGE and LASSO linear regression models</li>
+        <li>Set up a grid search to determine the best regularization hyperparameter alpha. The regularization approach allows us to include many features without overfitting.</li>
+        <li>Examination of the observed and predicted target "independent" variables</li>
+        <li>Cross validation to check for overfitting</li>
+    </ol>
+<li><a href="#evaluation">Evaluation</a></li>
+    <ol type="A">
+        <li><a href="#coefficients">Analysis of Resulting Coefficients</a></li>
+        <li><a href="#importance">Importance of Coefficients</a></li>
+        <li><a href="#transform">Transform Target Regressor Test</a></li>
+        <li><a href="#variability">Coefficient Importance and Variability Analysis</a></li>
+        <li><a href="#residualanalysis">Residual Analysis</a></li>
+    </ol>
+        
+ <li><a href="#deployment">Deployment</a></li>
+    <ol type="A">
+        <li><a href="#direct">Direct application: Comparison of the regression model to kbb.com</li> 
+        <li><a href="#keyfindings">Key findings</a></li>
+        <li><a href="#implications">Business implications</a></li>
+        <li><a href="#future">Future directions</a></li>
+    <ol>
+</ol>
 
 ## Key findings:
 
