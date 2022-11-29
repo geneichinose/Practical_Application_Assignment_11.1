@@ -77,16 +77,19 @@ The plan involves:
 
 ### Next steps, future directions, and recommendations:
 
-1. We recommend further examination of the regression residuals group by the following to check for trends:
+<ol type="1">
+<li>We recommend further examination of the regression residuals group by the following to check for trends:</li>
 
-  A. region
+<ol type="A">
+<li>region</li>
+<li>model and make</li>
+<li>paint color</li>
+</ol>
 
-  B. model and make
+<P>These features were not used in the regression. If trends exist, then future work could include adding these.</P>
 
-  C. color
+<li>Revisit the dataset in a few years to see if there is an increase in value for fuel efficient vehicles due to gas inflation.</li>
 
-  These features were not used in the regression. If trends exist, then future work could include adding these.
+<li>We would like to further understand why the model has more misfit for newer used cars (1 to 2 years old). As above, it is possible that the Covid-19 pandemic has injected some nonlinearity to the used car market with supply chain issues.  Improving prediction can help pricing newer used cars which will have more value.</li>
 
-2. Revisit the dataset in a few years to see if there is an increase in value for fuel efficient vehicles due to gas inflation.
-
-3. We would like to further understand why the model has more misfit for newer used cars (1 to 2 years old). As above, it is possible that the Covid-19 pandemic has injected some nonlinearity to the used car market with supply chain issues.  Improving prediction can help pricing newer used cars which will have more value.
+</ol>
