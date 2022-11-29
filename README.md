@@ -54,7 +54,7 @@ The plan involves:
         <li><a href="#keyfindings">Key findings</a></li>
         <li><a href="#implications">Business implications</a></li>
         <li><a href="#future">Future directions</a></li>
-    <ol>
+    </ol>
 </ol>
 
 ## Key findings:
